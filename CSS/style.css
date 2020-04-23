@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Solway', 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  width: 11%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile {
+  width: 30%;
+  line-height: 2;
+  margin: 50px auto;
+}
+
+.undrl {
+  text-decoration: underline;
+  ;
+  font-weight: bold;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 85px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 280px;
+}
+
+.skill-row {
+  width: 45%;
+  margin: 75px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-row:last-child{
+  text-align: right;
+}
+
+.user-img {
+  height: 9rem;
+}
+
+.game-img {
+  width: 7rem;
+  float: right;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.code-img {
+  width: 7rem;
+  float: left;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+
+.bottom-container p {
+  padding-top: 20px;
+}
+
+.contact-me {
+  width: 40%;
+  line-height: 2;
+}
+
+.footer-link {
+  margin: auto 40px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #11999E;
+  transition: color 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #EAF6F6;
+  text-align: justify;
+}
+
+.btn {
+  margin: 30px auto;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #EAF6F6;
+  border-radius: 200px;
+  background-color: #66BFBF;
+  border: 1px solid #66BFBF;
+  transition: background-color 0.3s, border 0.25s, color 0.2s, text-decoration 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  text-decoration: none;
+  background-color: #EAF6F6;
+  border: 1px solid #11999E;
+  color: #11999E;
+}
